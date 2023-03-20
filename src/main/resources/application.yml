@@ -1,0 +1,11 @@
+spring:
+  banner:
+    location: classpath:banner.txt
+
+server:
+  servlet:
+    context-path: /to-do-app
+
+rsa:
+  private-key: classpath:certs/private.pem
+  public-key: classpath:certs/public.pem
